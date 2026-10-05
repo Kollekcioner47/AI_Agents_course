@@ -1,0 +1,12 @@
+# Зависимости занятия 11. Здесь ДВА варианта — выберите ОДИН.
+# Ставить всё сразу не нужно: установите только выбранный канал
+# командой ниже, а не через «pip install -r requirements.txt».
+#
+# Вариант A. Telegram-бот (aiogram 3):
+#   pip install aiogram
+aiogram>=3.0
+#
+# Вариант B. Веб-чат (FastAPI + uvicorn):
+#   pip install fastapi uvicorn
+fastapi
+uvicorn[standard]
